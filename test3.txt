@@ -1,0 +1,20 @@
+# Program to generate Fibonacci series up to n terms
+
+def fibonacci_series(n):
+    fib_Series = []
+    a, b = 0, 1
+    for _ in range(n):
+        fib_series.append(a)
+        a, b = b, a + b
+    return fib_sequence
+
+# Number of terms
+n_terms = int(input("Enter the number of terms: "))
+
+# Generate and display the Fibonacci series
+if n_terms <= 0:
+    print("Please enter a positive integer.")
+else:
+    print("Fibonacci series:")
+    print(fibonacci_series(n_terms))
+
